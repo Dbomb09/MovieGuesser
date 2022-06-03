@@ -34,6 +34,7 @@ next.addEventListener('click', (e) =>{
     output.innerHTML = '';
     hintelem.innerHTML = movies[index].hint;
     output.appendChild(hintelem);
+});
 
     guess.addEventListener('click', (e) => {
 
@@ -55,7 +56,7 @@ next.addEventListener('click', (e) =>{
   output.appendChild(elem);
   
 });
-}); 
+ 
  
 });
 
